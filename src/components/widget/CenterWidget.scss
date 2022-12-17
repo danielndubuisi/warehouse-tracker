@@ -1,0 +1,15 @@
+.center-widget {
+  width: fit-content;
+  background-color: rgba(199, 188, 233, 0.089);
+  padding: 10px;
+  padding-right: 60px;
+  justify-content: space-between;
+  box-shadow: 2px 4px 10px 1px rgba(12, 10, 10, 0.247);
+  border-radius: 5px;
+
+  &:hover {
+    transition: all ease 0.5s;
+    transform: scale(1.03);
+    cursor: pointer;
+  }
+}

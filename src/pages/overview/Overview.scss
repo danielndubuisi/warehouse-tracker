@@ -1,0 +1,46 @@
+.overview {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+
+  .overview-top {
+    margin: 0 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .top-left {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+
+      .icon {
+        color: green;
+      }
+
+      .text {
+        padding-top: 5px;
+        font-size: 12px;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .overview-center {
+    margin: 10px 100px;
+    display: flex;
+    gap: 15px;
+
+    .center-left {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .center-chart {
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.right-widget {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  height: 100px;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.089);
+  border-radius: 5px;
+
+  &:hover {
+    transition: all ease 0.5s;
+    transform: scale(1.09);
+    cursor: pointer;
+  }
+}
