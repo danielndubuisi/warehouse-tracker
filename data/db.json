@@ -1,0 +1,92 @@
+{
+  "chartData": {
+    "dailyData": [
+      {
+        "time": "Page A",
+        "orders": 4000,
+        "canceled": 2400,
+        "amt": 2400
+      },
+      {
+        "time": "Page B",
+        "orders": 3000,
+        "canceled": 1398,
+        "amt": 2210
+      },
+      {
+        "time": "Page C",
+        "orders": 2000,
+        "canceled": 9800,
+        "amt": 2290
+      },
+      {
+        "time": "Page D",
+        "orders": 2780,
+        "canceled": 3908,
+        "amt": 2000
+      },
+      {
+        "time": "Page E",
+        "orders": 1890,
+        "canceled": 4800,
+        "amt": 2181
+      },
+      {
+        "time": "Page F",
+        "orders": 2390,
+        "canceled": 3800,
+        "amt": 2500
+      },
+      {
+        "time": "Page G",
+        "orders": 3490,
+        "canceled": 4300,
+        "amt": 2100
+      }
+    ],
+    "monthlyData": [
+      {
+        "time": "Page A",
+        "orders": 43,
+        "canceled": 20,
+        "amt": 240
+      },
+      {
+        "time": "Page B",
+        "orders": 30,
+        "canceled": 18,
+        "amt": 220
+      },
+      {
+        "time": "Page C",
+        "orders": 20,
+        "canceled": 98,
+        "amt": 290
+      },
+      {
+        "time": "Page D",
+        "orders": 28,
+        "canceled": 38,
+        "amt": 200
+      },
+      {
+        "time": "Page E",
+        "orders": 19,
+        "canceled": 48,
+        "amt": 218
+      },
+      {
+        "time": "Page F",
+        "orders": 23,
+        "canceled": 38,
+        "amt": 250
+      },
+      {
+        "time": "Page G",
+        "orders": 34,
+        "canceled": 43,
+        "amt": 210
+      }
+    ]
+  }
+}
