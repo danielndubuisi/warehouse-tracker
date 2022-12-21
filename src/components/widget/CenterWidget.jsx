@@ -28,8 +28,8 @@ const CenterWidget = ({ title, data }) => {
           }}
         >
           <CartesianGrid strokeDasharray="3 3" className="grid" />
-          <XAxis dataKey="time" />
-          <YAxis />
+          <XAxis dataKey="time" stroke="#ddd" />
+          <YAxis stroke="#ddd" />
           <Tooltip />
           <Legend />
           <Bar dataKey="orders" barSize={10} fill="#4089f6" />
