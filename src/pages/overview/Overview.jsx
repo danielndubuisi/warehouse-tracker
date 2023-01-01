@@ -5,7 +5,7 @@ import WebhookOutlinedIcon from "@mui/icons-material/WebhookOutlined";
 import Timer from "../../components/timer/Timer";
 import LeftWidget from "../../components/widget/LeftWidget";
 import CenterWidget from "../../components/widget/CenterWidget";
-// import RightWidget from "../../components/widget/RightWidget";
+import RightWidget from "../../components/widget/RightWidget";
 
 const Overview = () => {
   const url = "http://localhost:3000/chartData/";
@@ -45,9 +45,9 @@ const Overview = () => {
             )}
           </div>
         </div>
-        {/* <div className="center-right">
+        <div className="center-right">
           <RightWidget />
-        </div>  */}
+        </div>
       </div>
     </div>
   );

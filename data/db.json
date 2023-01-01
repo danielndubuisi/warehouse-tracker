@@ -2,90 +2,276 @@
   "chartData": {
     "dailyData": [
       {
-        "time": "Page A",
-        "orders": 4000,
-        "canceled": 2400,
-        "amt": 2400
+        "time": "00:00",
+        "orders": 0,
+        "canceled": 0
       },
       {
-        "time": "Page B",
-        "orders": 3000,
-        "canceled": 1398,
-        "amt": 2210
+        "time": "01:00",
+        "orders": 1,
+        "canceled": 0
       },
       {
-        "time": "Page C",
-        "orders": 2000,
-        "canceled": 9800,
-        "amt": 2290
+        "time": "02:00",
+        "orders": 0,
+        "canceled": 0
       },
       {
-        "time": "Page D",
-        "orders": 2780,
-        "canceled": 3908,
-        "amt": 2000
+        "time": "03:00",
+        "orders": 0,
+        "canceled": 0
       },
       {
-        "time": "Page E",
-        "orders": 1890,
-        "canceled": 4800,
-        "amt": 2181
+        "time": "04:00",
+        "orders": 2,
+        "canceled": 0
       },
       {
-        "time": "Page F",
-        "orders": 2390,
-        "canceled": 3800,
-        "amt": 2500
+        "time": "05:00",
+        "orders": 1,
+        "canceled": 0
       },
       {
-        "time": "Page G",
-        "orders": 3490,
-        "canceled": 4300,
-        "amt": 2100
+        "time": "06:00",
+        "orders": 5,
+        "canceled": 1
+      },
+      {
+        "time": "07:00",
+        "orders": 9,
+        "canceled": 2
+      },
+      {
+        "time": "08:00",
+        "orders": 10,
+        "canceled": 1
+      },
+      {
+        "time": "09:00",
+        "orders": 7,
+        "canceled": 0
+      },
+      {
+        "time": "10:00",
+        "orders": 5,
+        "canceled": 0
+      },
+      {
+        "time": "11:00",
+        "orders": 6,
+        "canceled": 2
+      },
+      {
+        "time": "12:00",
+        "orders": 4,
+        "canceled": 3
+      },
+      {
+        "time": "13:00",
+        "orders": 11,
+        "canceled": 5
+      },
+      {
+        "time": "14:00",
+        "orders": 4,
+        "canceled": 0
+      },
+      {
+        "time": "15:00",
+        "orders": 12,
+        "canceled": 3
+      },
+      {
+        "time": "16:00",
+        "orders": 13,
+        "canceled": 1
+      },
+      {
+        "time": "17:00",
+        "orders": 16,
+        "canceled": 0
+      },
+      {
+        "time": "18:00",
+        "orders": 14,
+        "canceled": 3
+      },
+      {
+        "time": "19:00",
+        "orders": 13,
+        "canceled": 0
+      },
+      {
+        "time": "20:00",
+        "orders": 4,
+        "canceled": 1
+      },
+      {
+        "time": "21:00",
+        "orders": 0,
+        "canceled": 0
+      },
+      {
+        "time": "22:00",
+        "orders": 0,
+        "canceled": 0
+      },
+      {
+        "time": "23:00",
+        "orders": 0,
+        "canceled": 0
       }
     ],
     "monthlyData": [
       {
-        "time": "Page A",
+        "time": "1 Dec",
+        "orders": 65,
+        "canceled": 2
+      },
+      {
+        "time": "2 Dec",
+        "orders": 90,
+        "canceled": 3
+      },
+      {
+        "time": "3 Dec",
+        "orders": 76,
+        "canceled": 5
+      },
+      {
+        "time": "4 Dec",
+        "orders": 90,
+        "canceled": 10
+      },
+      {
+        "time": "5 Dec",
+        "orders": 88,
+        "canceled": 9
+      },
+      {
+        "time": "6 Dec",
+        "orders": 74,
+        "canceled": 6
+      },
+      {
+        "time": "7 Dec",
+        "orders": 77,
+        "canceled": 7
+      },
+      {
+        "time": "8 Dec",
+        "orders": 67,
+        "canceled": 2
+      },
+      {
+        "time": "9 Dec",
+        "orders": 75,
+        "canceled": 4
+      },
+      {
+        "time": "10 Dec",
+        "orders": 102,
+        "canceled": 13
+      },
+      {
+        "time": "11 Dec",
+        "orders": 88,
+        "canceled": 8
+      },
+      {
+        "time": "12 Dec",
+        "orders": 60,
+        "canceled": 12
+      },
+      {
+        "time": "13 Dec",
         "orders": 43,
-        "canceled": 20,
-        "amt": 240
+        "canceled": 14
       },
       {
-        "time": "Page B",
-        "orders": 30,
-        "canceled": 18,
-        "amt": 220
+        "time": "14 Dec",
+        "orders": 131,
+        "canceled": 4
       },
       {
-        "time": "Page C",
-        "orders": 20,
-        "canceled": 98,
-        "amt": 290
+        "time": "15 Dec",
+        "orders": 123,
+        "canceled": 15
       },
       {
-        "time": "Page D",
-        "orders": 28,
-        "canceled": 38,
-        "amt": 200
+        "time": "16 Dec",
+        "orders": 120,
+        "canceled": 18
       },
       {
-        "time": "Page E",
-        "orders": 19,
-        "canceled": 48,
-        "amt": 218
+        "time": "17 Dec",
+        "orders": 95,
+        "canceled": 11
       },
       {
-        "time": "Page F",
-        "orders": 23,
-        "canceled": 38,
-        "amt": 250
+        "time": "18 Dec",
+        "orders": 134,
+        "canceled": 4
       },
       {
-        "time": "Page G",
-        "orders": 34,
-        "canceled": 43,
-        "amt": 210
+        "time": "19 Dec",
+        "orders": 88,
+        "canceled": 9
+      },
+      {
+        "time": "20 Dec",
+        "orders": 76,
+        "canceled": 10
+      },
+      {
+        "time": "21 Dec",
+        "orders": 42,
+        "canceled": 1
+      },
+      {
+        "time": "22 Dec",
+        "orders": 120,
+        "canceled": 5
+      },
+      {
+        "time": "23 Dec",
+        "orders": 78,
+        "canceled": 6
+      },
+      {
+        "time": "24 Dec",
+        "orders": 127,
+        "canceled": 20
+      },
+      {
+        "time": "25 Dec",
+        "orders": 113,
+        "canceled": 7
+      },
+      {
+        "time": "26 Dec",
+        "orders": 103,
+        "canceled": 9
+      },
+      {
+        "time": "27 Dec",
+        "orders": 90,
+        "canceled": 4
+      },
+      {
+        "time": "28 Dec",
+        "orders": 95,
+        "canceled": 6
+      },
+      {
+        "time": "29 Dec",
+        "orders": 122,
+        "canceled": 7
+      },
+      {
+        "time": "30 Dec",
+        "orders": 137,
+        "canceled": 8
       }
     ]
   }
