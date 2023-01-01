@@ -17,8 +17,8 @@ const CenterWidget = ({ title, data }) => {
       </div>
       <div className="chart">
         <BarChart
-          width={500}
-          height={235}
+          width={600}
+          height={220}
           data={data}
           margin={{
             top: 10,
