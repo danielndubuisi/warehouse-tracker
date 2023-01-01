@@ -21,7 +21,7 @@ const LeftWidget = ({ type }) => {
         title: "Past 30 days",
         orders: "2,822",
         orderDeficit: 834,
-        trend: "same day last week",
+        trend: "last month",
         revenue: 448.7,
         revenueDeficit: 132.6,
       };
@@ -43,7 +43,7 @@ const LeftWidget = ({ type }) => {
           <KeyboardArrowDownOutlinedIcon className="icon" />
           <span className="disc">
             <span className="text"> {data.orderDeficit} </span>
-            {data.trend}
+            vs {data.trend}
           </span>
         </div>
       </div>
@@ -55,7 +55,7 @@ const LeftWidget = ({ type }) => {
         <div className="extra">
           <KeyboardArrowUpOutlinedIcon className="icon" />
           <span className="disc">
-            <span className="text"> {data.revenueDeficit}</span> {data.trend}
+            <span className="text"> {data.revenueDeficit}</span> vs {data.trend}
           </span>
         </div>
       </div>
