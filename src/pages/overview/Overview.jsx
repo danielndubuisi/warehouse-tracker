@@ -31,17 +31,18 @@ const Overview = () => {
             {error && <p className="error">{error}</p>}
             {isPending && <Spinner />}
             {chartData && (
-              <CenterWidget title="Orders today" data={chartData.dailyData} />
-            )}
-          </div>
-          <div className="top-chart">
-            {error && <p className="error">{error}</p>}
-            {isPending && <Spinner />}
-            {chartData && (
-              <CenterWidget
-                title="Orders this month"
-                data={chartData.monthlyData}
-              />
+              <>
+                <CenterWidget
+                  title="Orders today"
+                  data={chartData.dailyData}
+                  review={true}
+                />
+                <CenterWidget
+                  title="Orders this month"
+                  data={chartData.monthlyData}
+                  review={false}
+                />
+              </>
             )}
           </div>
         </div>
